@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My School Website</title>
+</head>
+<body>
+  <header>
+    <h1>Federal School of Technology</h1>
+  </header>
+
+  <main>
+    <!-- Ordered list with roman numerals -->
+    <h2>Available Courses</h2>
+    <ol type="I">
+      <li>Software Engineering</li>
+      <li>Product Design</li>
+      <li>Data Analysis</li>
+      <li>Cybersecurity</li>
+    </ol>
+
+    <!-- External image from pexels -->
+    <h2>Classroom</h2>
+    <img src="https://images.pexels.com/photos/5530482/pexels-photo-5530482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Our students in classroom" width="500">
+
+    <!-- Audio element -->
+    <h2>School Anthem</h2>
+    <audio controls>
+      <source src="audio/Sound-Of-Salem-Ft-Lawrence-Oyor-Moses-Akoh-We-Will-Be-Many.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video element -->
+    <h2>Examination announcement</h2>
+    <video width="500" controls>
+      <source src="video/20210427_023650.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Table of 5 contacts -->
+    <h2>Students info</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Victor Ololade</td>
+          <td>No 13 Sunmade Street</td>
+          <td>234-904-7890</td>
+          <td>vicks@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Jade Paul</td>
+          <td>456 Elem St, Town</td>
+          <td>234-654-3210</td>
+          <td>jadep@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Alfred Johnson</td>
+          <td>789 Love St, Village</td>
+          <td>234-123-4567</td>
+          <td>alfjoh@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Bobby King</td>
+          <td>32 Grace St, Hamlet</td>
+          <td>234-555-6666</td>
+          <td>bob@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Charles David</td>
+          <td>67 Beach St, Adegbayi</td>
+          <td>234-888-9999</td>
+          <td>charlesd@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Registration form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown menu -->
+      <label for="country">Country:</label><br>
+      <select id="country" name="country" required>
+        <option value="">Select your country</option>
+        <option value="nig">Nigeria</option>
+        <option value="ken">Kenya</option>
+        <option value="rsa">South Africa</option>
+        <option value="egy">Egypt</option>
+      </select><br><br>
+
+      <!-- Radio buttons -->
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other" required>
+      <label for="other">Other</label><br><br>
+
+      <!-- Checkboxes -->
+      <label>Courses:</label><br>
+      <input type="checkbox" id="Software Engineering" name="courses" value="Software Engineering">
+      <label for="software Engineering">Software Engineering</label><br>
+      <input type="checkbox" id="Product Design" name="courses" value="Product Design">
+      <label for="product Design">Product Design</label><br>
+      <input type="checkbox" id="Data Analysis" name="courses" value="Data Analysis">
+      <label for="data Analysis">Data Analysis</label><br><br>
+      <input type="checkbox" id="Cybersecurity" name="courses" value="Cybersecurity">
+      <label for="cybersecurity">Cybersecurity</label><br>
+
+      <!-- Submit button -->
+      <input type="submit" value="Register">
+    </form>
+  </main>
+
+  <footer>
+    <p>© Federal School of Technology. All rights reserved.</p>
+  </footer>
+</body>
+</html>
